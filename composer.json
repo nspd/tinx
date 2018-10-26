@@ -1,6 +1,6 @@
 {
     "name": "nspd/tinx",
-    "description": "Inject cool stuff into laravels tinker and make it restartable.",
+    "description": "Fork from Ajthinking-Tinx with some adaptations for laravel 5.1",
     "type": "laravel",
     "license": "MIT",
     "authors": [
@@ -12,14 +12,16 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ajthinking\\Tinx\\TinxServiceProvider"
+                "Nspd\\Tinx\\TinxServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "nspd\\Tinx\\": "src/"
+            "Nspd\\Tinx\\": "src/"
         }
     },    
-    "require": {}
+    "require": {
+        "php": "^7.0"
+    }
 }
