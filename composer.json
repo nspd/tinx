@@ -1,5 +1,5 @@
 {
-    "name": "ajthinking/tinx",
+    "name": "nspd/tinx",
     "description": "Inject cool stuff into laravels tinker and make it restartable.",
     "type": "laravel",
     "license": "MIT",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ajthinking\\Tinx\\": "src/"
+            "nspd\\Tinx\\": "src/"
         }
     },    
     "require": {}
